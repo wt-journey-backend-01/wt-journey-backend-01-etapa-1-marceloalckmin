@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco! - DevBurger</title>
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Fale Conosco!</h1>
+            <p>Se você tem alguma sugestão, dúvida ou apenas quer conversar sobre lanches, estamos aqui para ouvir você!</p>
+            <form action="/contato" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required><br>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows = 10 required></textarea><br>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+            <a href="/">Voltar para o Cardápio</a>
+        </div>
+    </body>
+</html>
